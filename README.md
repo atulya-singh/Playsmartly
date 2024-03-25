@@ -7,6 +7,12 @@ This website will allow users to:
 
 This project is projected to launch by June 2024 and currently the front-end demo can be found here:
 
+### Buy directly by searching through all listings: https://stark-island-23668-6445823c5f30.herokuapp.com/buy.html
+
+![image](https://github.com/atulya-singh/Playsmartly/assets/154584565/53a4f082-b1a2-49df-9d7c-12f004acf491)
+
+<hr>
+
 ### Sell/Donate page to add listing: https://stark-island-23668-6445823c5f30.herokuapp.com/sell.html
 
 ![image](https://github.com/atulya-singh/Playsmartly/assets/154584565/4304a418-e55b-463d-b2e0-62e09bea05de)
@@ -14,10 +20,6 @@ This project is projected to launch by June 2024 and currently the front-end dem
 ![image](https://github.com/atulya-singh/Playsmartly/assets/154584565/e94fb961-bee0-4e34-9781-6924d665ae6d)
 
 <hr>
-
-### Buy directly by searching through all listings: https://stark-island-23668-6445823c5f30.herokuapp.com/buy.html
-
-![image](https://github.com/atulya-singh/Playsmartly/assets/154584565/53a4f082-b1a2-49df-9d7c-12f004acf491)
 
 ### Tech Stack
 
