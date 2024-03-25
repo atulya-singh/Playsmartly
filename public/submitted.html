@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submitted Form Data</title>
+  <style>
+    /* CSS for styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4; /* Light gray background */
+      color: #333; /* Dark gray text color */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h3 {
+      color: #007bff; /* Blue headings */
+    }
+
+    #form-data {
+      background-color: #fff; /* White background for form data */
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow effect */
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #007bff; /* Blue button */
+      color: #fff; /* White text color */
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        color: #333; /* Dark gray text color */
+        background: linear-gradient(0deg, rgba(34,180,195,1) 0%, rgba(227,255,201,1) 100%);
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        color: #176fd4; /* Green color for h3 */
+            background-color: #a7ffaa; /* Light green background */
+            padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<center>
+  <div class="heading">
+    <h1>playsmart</h1>
+    your best friend for playing any sport on a budget
+  </div>
+
+  <h3>Added listing!</h3>
+
+  <div id="form-data">
+    <!-- Form data will be displayed here -->
+  </div>
+
+  <!-- Back button -->
+  <button onclick="goBack()">Back</button>
+
+</center>
+  <script>
+    // Function to parse URL parameters
+    function getUrlParams() {
+      var params = {};
+      window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+        params[key] = decodeURIComponent(value);
+      });
+      return params;
+    }
+
+    // Get form data from URL parameters
+    var formData = getUrlParams();
+
+    // Display form data
+    document.getElementById('form-data').innerHTML = `
+      <p><strong>Sport:</strong> ${formData.sport}</p>
+      <p><strong>Item Name:</strong> ${formData.itemName}</p>
+      <p><strong>Price:</strong> ${formData.price}</p>
+    `;
+
+    // Function to navigate back
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
+</body>
+</html>

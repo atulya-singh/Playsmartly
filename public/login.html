@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Register</title>
+    <style>
+        /* CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333; /* Dark gray text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc; /* Light gray border */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff; /* Blue submit button */
+            color: #fff; /* White text color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        .heading {
+        color: #176fd4; /* Green color for h3 */
+            background-color: #a7ffaa; /* Light green background */
+            padding: 10px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        color: #333; /* Dark gray text color */
+        background: linear-gradient(0deg, rgba(34,180,195,1) 0%, rgba(227,255,201,1) 100%);
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="heading">
+            <h1>playsmartly</h1>
+            your best friend for playing any sport on a budget
+          </div>
+
+        <form action="#" method="post" id="loginForm">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+            <input type="submit" value="Login">
+        </form>
+
+        <form action="#" method="post" id="registerForm">
+            <h3>First time user?</h3>
+            <input type="submit" value="Register here.">
+        </form>
+    </center>
+</body>
+</html>
