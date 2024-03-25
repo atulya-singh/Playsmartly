@@ -5,7 +5,7 @@ This website will allow users to:
 -  Donate their gear if they grow out of it (or decide to move to anther sport) and keep the community alive
 -   Purchase sports gear directly on our site
 
-This project is projected to launch by June 2024 and currently the front-end demo in the links below.
+This project is projected to launch by June 2024 and currently the front-end demo in the links below. I am working on the backend and the search engine for the website. My goal is to launch this within my school first and then withing my city.
 
 ### Tech Stack
 
